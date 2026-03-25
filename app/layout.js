@@ -17,11 +17,11 @@ export const metadata = {
     "Portfolio for Marius Aasgaard – building embedded and sensor-driven systems.",
 
   openGraph: {
-    title: "Portfolio",
+    title: "Marius Aasgaard",
     description:
       "Portfolio for Marius Aasgaard – building embedded and sensor-driven systems.",
     url: "https://www.mariusaasgaard.no",
-    siteName: "Marius Aasgaard Portfolio",
+    siteName: "Marius Aasgaard",
     images: [
       {
         url: "https://www.mariusaasgaard.no/images/preview.png",
