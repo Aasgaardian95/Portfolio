@@ -273,10 +273,12 @@ export default function Home() {
               <p>
                 LinkedIn:{" "}
                 <a
-                  href="https://linkedin.com"
-                  className="underline underline-offset-4"
+                  href="https://www.linkedin.com/in/mariusaasgaard/
+                  className="
+                  underline
+                  underline-offset-6
                 >
-                  Legg inn LinkedIn-lenken din her
+                  https://www.linkedin.com/in/mariusaasgaard/
                 </a>
               </p>
             </div>
