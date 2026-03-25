@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Marius Aasgaard",
+  title: "Marius Aasgaard | Portfolio",
   description:
     "Portfolio for Marius Aasgaard – building embedded and sensor-driven systems.",
 
