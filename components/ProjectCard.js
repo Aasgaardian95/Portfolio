@@ -9,6 +9,4 @@ export default function ProjectCard({ title, description, tech, link }) {
       <p className="text-sm text-gray-500">{tech}</p>
     </a>
   );
-  
 }
-
