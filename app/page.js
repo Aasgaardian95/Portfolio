@@ -1,4 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
+import Image from "next/image";
 
 export default function Home() {
   const projects = [
@@ -63,40 +64,33 @@ export default function Home() {
       <section className="max-w-5xl mx-auto">
         {/* Hero */}
         <section className="mb-20">
-          <p className="mb-4 text-sm uppercase tracking-[0.2em] text-gray-500">
-            Portfolio · CV
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-10">
+            {/* Tekst */}
+            <div className="flex-1">
+              <p className="mb-4 text-sm uppercase tracking-[0.2em] text-gray-500">
+                Portfolio
+              </p>
 
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-            Marius Aasgaard
-          </h1>
+              <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
+                Marius Aasgaard
+              </h1>
 
-          <p className="max-w-2xl text-lg md:text-xl text-gray-400 mb-8 leading-relaxed">
-            Dataingeniørstudent med interesse for embedded systems, backend,
-            sensorikk og praktisk systemutvikling. Jeg liker å jobbe tett på
-            både teknologi og problemløsning, fra kode og datamodeller til
-            hardware, målinger og systemforståelse.
-          </p>
+              <p className="max-w-4xl text-lg md:text-l text-gray-400 mb-8 leading-relaxed">
+                Dataingeniørstudent med interesse for embedded systems, backend,
+                sensorikk og praktisk systemutvikling.
+              </p>
+            </div>
 
-          <div className="flex flex-wrap gap-4">
-            <a
-              href="#projects"
-              className="rounded-lg bg-white px-5 py-3 font-medium text-black transition hover:opacity-90"
-            >
-              Se prosjekter
-            </a>
-            <a
-              href="#experience"
-              className="rounded-lg border border-gray-700 px-5 py-3 transition hover:border-gray-500"
-            >
-              Erfaring
-            </a>
-            <a
-              href="#contact"
-              className="rounded-lg border border-gray-700 px-5 py-3 transition hover:border-gray-500"
-            >
-              Kontakt
-            </a>
+            {/* Bilde */}
+            <div className="flex-shrink-0">
+              <Image
+                src="/images/profil.jpg"
+                alt="Marius Aasgaard"
+                width={800}
+                height={800}
+                className="rounded-2xl object-cover"
+              />
+            </div>
           </div>
         </section>
 
