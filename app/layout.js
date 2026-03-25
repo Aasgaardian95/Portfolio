@@ -12,14 +12,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Marius Aasgaard | Portfolio",
+  title: "Marius Aasgaard",
   description:
-    "Portfolio for Marius Aasgaard – dataingeniørstudent med fokus på embedded systems, backend og systemutvikling.",
+    "Portfolio for Marius Aasgaard – building embedded and sensor-driven systems.",
 
   openGraph: {
-    title: "Marius Aasgaard | Portfolio",
+    title: "Portfolio",
     description:
-      "Portfolio for Marius Aasgaard – dataingeniørstudent med fokus på embedded systems, backend og systemutvikling.",
+      "Portfolio for Marius Aasgaard – building embedded and sensor-driven systems.",
     url: "https://www.mariusaasgaard.no",
     siteName: "Marius Aasgaard Portfolio",
     images: [
@@ -38,7 +38,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Marius Aasgaard | Portfolio",
     description:
-      "Portfolio for Marius Aasgaard – dataingeniørstudent med fokus på embedded systems, backend og systemutvikling.",
+      "Portfolio for Marius Aasgaard – building embedded and sensor-driven systems.",
     images: ["https://www.mariusaasgaard.no/images/preview.png"],
   },
 };
