@@ -258,7 +258,7 @@ export default function Home() {
                   href="mailto:marius@mariusaasgaard.no"
                   className="underline underline-offset-4"
                 >
-                  marius@mariusaasgaard.no
+                  aasgaardmarius@gmail.com
                 </a>
               </p>
               <p>
@@ -273,12 +273,10 @@ export default function Home() {
               <p>
                 LinkedIn:{" "}
                 <a
-                  href="https://www.linkedin.com/in/mariusaasgaard/
-                  className="
-                  underline
-                  underline-offset-6
+                  href="https://www.linkedin.com/in/mariusaasgaard"
+                  className="underline underline-offset-4"
                 >
-                  https://www.linkedin.com/in/mariusaasgaard/
+                  linkedin.com/in/mariusaasgaard
                 </a>
               </p>
             </div>
