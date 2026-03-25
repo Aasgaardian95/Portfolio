@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   const projects = [
     {
-      title: "Edge AI Lighting System",
+      title: "Mesh-Lighting System",
       description:
         "Sensorbasert lysstyring med BLE og DALI. Fokus på målinger, regulering og samspill mellom hardware og software.",
       tech: "C++ · Arduino · BLE · DALI · Sensorikk",
