@@ -24,7 +24,7 @@ export const metadata = {
     siteName: "Marius Aasgaard",
     images: [
       {
-        url: "https://www.mariusaasgaard.no/images/preview.png",
+        url: "https://www.mariusaasgaard.no/images/preview1.png",
         width: 1200,
         height: 630,
         alt: "Portfolio til Marius Aasgaard",
@@ -39,7 +39,7 @@ export const metadata = {
     title: "Marius Aasgaard | Portfolio",
     description:
       "Portfolio for Marius Aasgaard – building embedded and sensor-driven systems.",
-    images: ["https://www.mariusaasgaard.no/images/preview.png"],
+    images: ["https://www.mariusaasgaard.no/images/preview1.png"],
   },
 };
 
