@@ -257,6 +257,8 @@ export default function Home() {
                 <a
                   href="mailto:marius@mariusaasgaard.no"
                   className="underline underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   aasgaardmarius@gmail.com
                 </a>
@@ -266,6 +268,8 @@ export default function Home() {
                 <a
                   href="https://github.com/Aasgaardian95/Datateknikk_H25"
                   className="underline underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   github.com/Aasgaardian95/Datateknikk_H25
                 </a>
@@ -275,6 +279,8 @@ export default function Home() {
                 <a
                   href="https://www.linkedin.com/in/mariusaasgaard"
                   className="underline underline-offset-4"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   linkedin.com/in/mariusaasgaard
                 </a>
