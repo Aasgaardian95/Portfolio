@@ -53,7 +53,17 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <div className="w-full border-t-2 border-red-600 bg-gray-950">
+          <div className="mx-auto flex max-w-5xl items-center px-6 py-2">
+            <span className="text-xs font-medium uppercase tracking-[0.2em] text-red-500/90">
+              Aasgaard IT
+            </span>
+          </div>
+        </div>
+
+        {children}
+      </body>
     </html>
   );
 }

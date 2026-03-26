@@ -86,8 +86,11 @@ export default function Home() {
               <Image
                 src="/images/profil.jpg"
                 alt="Marius Aasgaard"
-                width={800}
-                height={800}
+                width={500}
+                height={500}
+                priority
+                sizes="260px"
+                style={{ width: "100%", maxWidth: "260px", height: "auto" }}
                 className="rounded-2xl object-cover"
               />
             </div>
