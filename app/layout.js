@@ -54,17 +54,17 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        <div className="w-full bg-black">
-          <div className="mx-auto flex h-16 max-w-5xl items-center gap-3 px-6">
-            <div className="h-8 w-8 rounded-md bg-red-600 flex items-center justify-center text-xs font-bold text-white">
+      <body className="min-h-full flex flex-col bg-gray-950">
+        <div className="w-full bg-[#030712]">
+          <div className="mx-auto flex h-11 max-w-5xl items-center gap-3 px-6">
+            <div className="flex h-5 w-5 items-center justify-center rounded-md bg-red-700 text-[10px] font-bold text-white">
               A
             </div>
-            <span className="text-xs font-medium uppercase tracking-[0.2em] text-red-500/90">
+            <span className="text-[10px] font-medium uppercase tracking-[0.22em] text-red-400/75">
               Aasgaard IT
             </span>
           </div>
-          <div className="h-[6px] w-full bg-gradient-to-r from-red-600 via-red-500 to-red-600" />
+          <div className="h-[1px] w-full bg-gradient-to-r from-red-800/70 via-red-500/60 to-red-800/70" />
         </div>
 
         {children}
