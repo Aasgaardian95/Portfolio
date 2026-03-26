@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,12 +55,16 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <div className="w-full border-t-2 border-red-600 bg-gray-950">
-          <div className="mx-auto flex max-w-5xl items-center px-6 py-2">
+        <div className="w-full bg-black">
+          <div className="mx-auto flex h-16 max-w-5xl items-center gap-3 px-6">
+            <div className="h-8 w-8 rounded-md bg-red-600 flex items-center justify-center text-xs font-bold text-white">
+              A
+            </div>
             <span className="text-xs font-medium uppercase tracking-[0.2em] text-red-500/90">
               Aasgaard IT
             </span>
           </div>
+          <div className="h-[6px] w-full bg-gradient-to-r from-red-600 via-red-500 to-red-600" />
         </div>
 
         {children}
