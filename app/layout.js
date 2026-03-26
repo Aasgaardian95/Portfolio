@@ -16,6 +16,10 @@ export const metadata = {
   description:
     "Portfolio for Marius Aasgaard – building embedded and sensor-driven systems.",
 
+  icons: {
+    icon: "/favicon.ico",
+  },
+
   openGraph: {
     title: "Marius Aasgaard",
     description:
