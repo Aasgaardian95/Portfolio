@@ -192,7 +192,7 @@ export default function Home() {
             <div className="rounded-2xl border border-gray-800 bg-gray-900 p-6">
               <div className="mb-2 flex flex-col md:flex-row md:items-center md:justify-between">
                 <h3 className="text-xl font-semibold">
-                  Bachelorstudium i ingeniørfag, data · Høgskolen i Østfold
+                  Bachelorstudium i ingeniørfag, data - Høgskolen i Østfold
                 </h3>
                 <p className="text-sm text-gray-500">2024 – 2027</p>
               </div>
@@ -210,7 +210,7 @@ export default function Home() {
             <div className="rounded-2xl border border-gray-800 bg-gray-900 p-6">
               <div className="mb-2 flex flex-col md:flex-row md:items-center md:justify-between">
                 <h3 className="text-xl font-semibold">
-                  Bachelorstudium i vernepleie · Høgskolen i Østfold
+                  Bachelorstudium i vernepleie - Høgskolen i Østfold
                 </h3>
                 <p className="text-sm text-gray-500">2017 – 2020</p>
               </div>
