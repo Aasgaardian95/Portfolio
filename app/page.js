@@ -144,7 +144,9 @@ export default function Home() {
                 <h3 className="text-xl font-semibold">
                   Embedded Software Engineer Intern · NxTech
                 </h3>
-                <p className="text-sm text-gray-500">Januar 2026 - Mai 2026</p>
+                <p className="text-sm text-gray-500">
+                  Januar 2026 - April 2026
+                </p>
               </div>
 
               <p className="mb-3 text-gray-400">
@@ -218,6 +220,20 @@ export default function Home() {
                 relasjonskompetanse og ansvar i krevende situasjoner.
               </p>
             </div>
+          </div>
+
+          <div className="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+            <div className="mb-2 flex flex-col md:flex-row md:items-center md:justify-between">
+              <h3 className="text-xl font-semibold">
+                Elektro og automatisering - Glemmen videregående skole
+              </h3>
+              <p className="text-sm text-gray-500">2011 - 2013</p>
+            </div>
+
+            <p className="text-gray-400">
+              Elektrofaglig utdanning med fokus på automasjon, styringssystemer
+              og praktisk teknisk arbeid.
+            </p>
           </div>
         </section>
 
