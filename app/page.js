@@ -188,7 +188,7 @@ export default function Home() {
         <section className="mb-20">
           <h2 className="mb-6 text-2xl font-semibold">Utdanning</h2>
 
-          <div className="space-y-6">
+          <div className="space-y-8">
             <div className="rounded-2xl border border-gray-800 bg-gray-900 p-6">
               <div className="mb-2 flex flex-col md:flex-row md:items-center md:justify-between">
                 <h3 className="text-xl font-semibold">
@@ -220,20 +220,20 @@ export default function Home() {
                 relasjonskompetanse og ansvar i krevende situasjoner.
               </p>
             </div>
-          </div>
 
-          <div className="rounded-2xl border border-gray-800 bg-gray-900 p-6">
-            <div className="mb-2 flex flex-col md:flex-row md:items-center md:justify-between">
-              <h3 className="text-xl font-semibold">
-                Elektro og automatisering - Glemmen videregående skole
-              </h3>
-              <p className="text-sm text-gray-500">2011 - 2013</p>
+            <div className="rounded-2xl border border-gray-800 bg-gray-900 p-6">
+              <div className="mb-2 flex flex-col md:flex-row md:items-center md:justify-between">
+                <h3 className="text-xl font-semibold">
+                  Elektro og automatisering - Glemmen videregående skole
+                </h3>
+                <p className="text-sm text-gray-500">2011 - 2013</p>
+              </div>
+
+              <p className="text-gray-400">
+                Elektrofaglig utdanning med fokus på automasjon,
+                styringssystemer og praktisk teknisk arbeid.
+              </p>
             </div>
-
-            <p className="text-gray-400">
-              Elektrofaglig utdanning med fokus på automasjon, styringssystemer
-              og praktisk teknisk arbeid.
-            </p>
           </div>
         </section>
 
